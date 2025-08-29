@@ -15,7 +15,7 @@ const SubSectionEvents = () => {
 
       <EventItem
         iconName="SvgWeddingCeremony"
-        title="Ceremonia"
+        title="Ceremonia y Recepción"
         background="Ceremony"
         place="El Bar"
         description="Calle 26c #25-67"

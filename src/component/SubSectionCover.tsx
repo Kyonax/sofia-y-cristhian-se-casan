@@ -17,9 +17,15 @@ const SubSectionCover = () => {
           role="banner"
           aria-label="Portada - nombres"
         >
-          <p class="cover-names__subtitle">Nuestra Boda</p>
+          <div class="cover-names__subtitle">
+            <InviteTitle main="" background="Nuestra Boda" />
+          </div>
 
-          <h1 class="cover-names__couple" aria-hidden="false">
+          <h1
+            data-animate="in-place"
+            class="cover-names__couple"
+            aria-hidden="false"
+          >
             <span class="cover-names__word">SOFÍA</span>
             <span class="cover-names__sep">&</span>
             <span class="cover-names__word">CRISTHIAN</span>
