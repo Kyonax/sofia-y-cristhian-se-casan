@@ -7,8 +7,8 @@ const SubSectionGifts = () => {
       <InviteTitle main="Regalos" background="Presents" />
 
       <p data-animate="in-place" class="gifts-section__message">
-        Tu compañía es nuestro mejor regalo. No pediremos obsequios; ven con el
-        corazón lleno y los zapatos cómodos para bailar.
+        El detalle más valioso es tenerte con nosotros en este día. No
+        esperaremos obsequios, solo tu alegría de celebrar nuestra unión.
       </p>
     </div>
   );

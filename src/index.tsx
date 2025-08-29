@@ -40,6 +40,7 @@ const CRITICAL_IMAGES = [
   "IMG_6551",
   "IMG_6839",
   "IMG_6858",
+  "IMG_CERROS",
   "IMG_8263",
 ];
 

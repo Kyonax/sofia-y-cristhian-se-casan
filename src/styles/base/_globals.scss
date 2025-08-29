@@ -607,7 +607,7 @@ body {
         width: 100%;
         display: block;
         position: relative;
-        margin-top: 3rem;
+        margin-top: 4rem;
         z-index: 0;
       }
     }
@@ -866,19 +866,15 @@ body {
     z-index: 2; // keep above image
 
     &__subtitle {
-      font-family: Peristiwa, Astutely, "DMSerif", "EBGaramond", "Didot", serif;
-      font-style: italic;
-      font-weight: 400;
-      font-size: var(--fs-400);
-      letter-spacing: 0.06em;
-      color: var(--clr-secondary-100);
-      margin: 0;
-      opacity: 0.95;
-      transform-origin: center;
-
-      transition:
-        transform 0.45s ease,
-        opacity 0.45s ease;
+      width: 100%;
+      transform: translateY(-2rem);
+      margin-bottom: 3rem;
+      .invite-title {
+        --invite-font-large: clamp(1rem, 20vw, 3.5rem);
+        &__background {
+          --invite-title-color: var(--clr-secondary-100);
+        }
+      }
     }
 
     // big couple names
@@ -888,6 +884,7 @@ body {
       gap: 0.25rem; // vertical spacing between lines
       align-items: center;
       justify-items: center;
+      opacity: 0;
 
       font-family: "Didot", "EBGaramond", Georgia, "Times New Roman", serif;
       font-weight: 100;
@@ -932,7 +929,7 @@ body {
     // date
     &__date {
       font-size: var(--fs-400);
-      color: var(--clr-secondary-100);
+      color: var(--clr-primary-500);
       margin-top: 0.6rem;
       width: max-content;
       left: 0;
@@ -943,18 +940,26 @@ body {
     }
 
     @include mixins.max-media-query(sm) {
-      margin-top: 1.2rem;
+      margin-top: 1rem;
       &__subtitle {
-        font-size: var(--fs-400);
+        transform: translateY(1rem);
+        margin-bottom: 1.5rem;
+        .invite-title {
+          --invite-font-large: clamp(1rem, 20vw, 1.5rem);
+          &__background {
+            --invite-stroke-back: 0.5px;
+          }
+        }
       }
 
       &__couple {
+        margin-top: 0rem;
         font-size: clamp(var(--fs-500), 12vw, var(--fs-700));
         letter-spacing: 0.06em;
       }
 
       &__date {
-        margin-top: 0.8rem;
+        margin-top: 0rem;
         font-size: var(--fs-300);
       }
     }

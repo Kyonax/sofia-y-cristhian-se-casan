@@ -1,3 +1,4 @@
+import BlastImage from "./BlastImage";
 import InviteTitle from "./InviteTitle";
 import "./scss/SubSectionExtendedTrip.scss";
 import SvgIcon from "./SvgIcon";
@@ -16,7 +17,12 @@ const SubSectionExtendedTrip = () => {
       </p>
 
       <div data-animate="in-place" class="extended-trip-section__icon">
-        <SvgIcon name="SvgCerros" />
+        <BlastImage
+          img="IMG_CERROS"
+          className="cover-image"
+          alt="Cerros de Mavecure"
+          fetchpriority="high"
+        />
       </div>
 
       <div data-animate="in-place" class="extended-trip-section__details">

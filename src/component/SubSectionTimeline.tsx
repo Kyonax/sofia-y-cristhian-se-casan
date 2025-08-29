@@ -25,7 +25,7 @@ const leftEvents: TimelineEvent[] = [
 const rightEvents: TimelineEvent[] = [
   { time: "16:00", title: "Ceremonia", icon: "SvgWeddingCeremony" },
   { time: "", title: "", icon: "" },
-  { time: "18:30", title: "Banquete de boda", icon: "SvgLunch" },
+  { time: "18:30", title: "Cena", icon: "SvgLunch" },
   { time: "", title: "", icon: "" },
   { time: "20:00", title: "Cóctel", icon: "SvgCocktail" },
   { time: "", title: "", icon: "" },
@@ -36,10 +36,7 @@ const rightEvents: TimelineEvent[] = [
 const SubSectionTimeline = () => {
   return (
     <div class="section-timeline">
-      <InviteTitle
-        main="Itinerario de Ceremonia"
-        background="Wedding Itinerary"
-      />
+      <InviteTitle main="Wedding Timeline" background="Wedding Itinerary" />
 
       <section class="timeline">
         <div class="timeline__line">
