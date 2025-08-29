@@ -44,7 +44,7 @@ const SubSectionAccommodations = () => {
         iconName="SvgHotel"
         name="Hotel Tucunaré"
         background="Tucunaré"
-        description="A orillas del río Inírida, habitaciones con vista"
+        description="Habitaciones con vista al río Inírida"
         phone="3118346865"
         web="https://lespotturismo.com/pages/contact?fbclid=PAQ0xDSwMStp9leHRuA2FlbQIxMQABp5NeDYqe5GLRUBzJOYpLeoWNH5H7eQ0uq58sXroJ-SyMsYuVaTdZVJx2AG-9_aem_7uCzXqK_dBAXJjt3eSsQ7g"
       />
