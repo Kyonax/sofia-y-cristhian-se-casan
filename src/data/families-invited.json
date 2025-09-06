@@ -3,7 +3,7 @@
   "fam001": { "text": "Familia Ayala Galán", "reserved": 2 },
   "fam002": { "text": "Familia Lara Carrillo", "reserved": 2 },
   "fam003": { "text": "Miguel Angel Uribe", "reserved": 1 },
-  "fam004": { "text": "Breyner Cortes Delvasto", "reserved": 1 },
+  "fam004": { "text": "Breyner Delvasto Cortes", "reserved": 1 },
   "fam005": { "text": "Familia Rusinque Londoño", "reserved": 3 },
   "fam006": { "text": "Claudia Restrepo Bolivar", "reserved": 2, "baby": true },
   "fam007": { "text": "Familia Melo Lopez", "reserved": 2 },
