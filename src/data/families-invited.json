@@ -2,7 +2,7 @@
   "fam000": { "text": "Familia Galvis Gonzales", "reserved": 3, "baby": true },
   "fam001": { "text": "Familia Ayala Galán", "reserved": 2 },
   "fam002": { "text": "Familia Lara Carrillo", "reserved": 2 },
-  "fam003": { "text": "Miguel Angel Uribe & Linda Viviana Cifuentes", "reserved": 1 },
+  "fam003": { "text": "Miguel Angel Uribe & Linda Viviana Cifuentes", "reserved": 2 },
   "fam004": { "text": "Breyner Delvasto Cortes", "reserved": 1 },
   "fam005": { "text": "Familia Rusinque Londoño", "reserved": 3 },
   "fam006": { "text": "Claudia Restrepo Bolivar", "reserved": 2, "baby": true },
@@ -37,5 +37,7 @@
   "fam035": { "text": "Familia Ramírez Cruz", "reserved": 3 },
   "fam036": { "text": "Paula Solarte", "reserved": 1 },
   "fam037": { "text": "Norma Ramírez Aristizabal", "reserved": 1 },
-  "fam038": { "text": "Liseth Méndez e Hijos ", "reserved": 3 }
+  "fam038": { "text": "Liseth Méndez e Hijos", "reserved": 3 },
+  "fam039": { "text": "Familia Roa Ruano", "reserved": 2 },
+  "fam040": { "text": "Salomón Lara", "reserved": 1 }
 }
